@@ -346,7 +346,7 @@ template {
 
 /* declared various font weight in root, added them in body and all 6 levels of headings*/
 
-*{
+*, *::before,*::after {
   box-sizing: border-box;
 }
 html {

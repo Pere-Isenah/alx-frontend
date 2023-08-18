@@ -1,0 +1,40 @@
+/* added color in root*/
+html {
+  scroll-behavior: smooth;
+}
+/*root*/
+:root{
+  --color-primary:#d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-ligt-grey :#f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color:color-black;
+  --font-family-base: "Helvetica Neue", "Helvetica", "Arial,sans-serif";
+  --font-family-title: "Helvetica Neue", "Helvetica", "Arial,sans-serif";
+}
+/* body*/
+body {
+  color: var(--text-color);
+  font-family: --font-family-base;
+} 
+
+a {
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+.section-tagline {
+ background-color: var(--color-primary);
+}
+
+h1 {
+  font-family: --font-family-title;
+}

@@ -1,4 +1,4 @@
-/*add colour to body and making the scroll behaviour smooth*/
+/* added color in root*/
 html {
   scroll-behavior: smooth;
 }
@@ -15,9 +15,11 @@ html {
 body {
   color: var(--text-color);
 } 
+
 a {
   color: var(--text-color);
 }
+
 .visually-hidden {
   display: none;
 }

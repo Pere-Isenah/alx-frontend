@@ -541,6 +541,6 @@ ul .row{
  display: block;
 }
 
-.style-link svg{
+.style-link > svg{
   color: var(--text-color);
 }

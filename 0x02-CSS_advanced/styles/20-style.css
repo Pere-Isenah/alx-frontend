@@ -497,11 +497,12 @@ ul .row{
   padding: 0;
   list-style: none;
 }
+
 /* Clear the context of the grid */
-.row ::after {
-  content: "";
-  display: table;
-  clear: both;
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
 }
 
 .col-1-3{

@@ -505,6 +505,7 @@ ul .row{
     clear:both;
 }
 
+/* Clear the context of the grid */
 [class^="col-"]{
   float: left;
   padding: 0.5rem;
@@ -519,6 +520,7 @@ ul .row{
   font-size: var(font-size-small);
   color: var(--text-color);
 }
+
 .footer ul{
  text-align: right;
 }

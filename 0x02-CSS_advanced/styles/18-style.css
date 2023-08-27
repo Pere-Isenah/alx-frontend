@@ -391,8 +391,6 @@ html {
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
-  
-  
 }
 /* body*/
 body {
@@ -486,12 +484,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-link{
   display: block ;
-  padding: 50% 100%;
+  padding:  0.5rem 1rem;
 }
 .nav .nav-link :hover{
   color: var(--nav-item-link-hover);
 }
-.
+
 .footer{
   padding:var(--footer-padding);
 }

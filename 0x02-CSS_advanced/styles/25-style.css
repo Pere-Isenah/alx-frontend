@@ -425,6 +425,21 @@ a:active{
   background-color: var(--color-light-grey);
 }
 
+.button{
+  display:var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+}
+
+.button :hover{
+  color: var(--button-hover-color);
+  text-decoration: var(--button-hover-text-decoration);
+  background: var(--button-hover-background);
+}
+
 .visually-hidden {
   display: none;
 }
@@ -537,20 +552,6 @@ ul .row{
   padding: 0.5rem;
 }
 
-.button{
-  display:var(--button-display);
-  padding: var(--button-padding);
-  border: var(--button-border);
-  font-size: var(--button-font-size);
-  color: var(--button-color);
-  text-decoration: var(--button-text-decoration);
-}
-
-.button :hover{
-  color: var(--button-hover-color);
-  text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
-}
 
 /* Add a dark theme to sections */
 [data-section-theme="dark"] {
